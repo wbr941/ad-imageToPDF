@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片转PDF工具</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>图片转PDF工具</h1>
+        <div class="upload-area" id="dropArea">
+            <p class="upload-text">点击或拖拽图片到此处上传</p>
+            <p class="upload-text">(支持jpg、png、gif格式)</p>
+            <input type="file" id="fileInput" accept="image/*" multiple>
+        </div>
+        <div class="preview-area" id="previewArea"></div>
+        <div class="button-group">
+            <button class="generate-btn" id="generateBtn" disabled>生成PDF</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
